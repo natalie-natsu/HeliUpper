@@ -1,0 +1,11 @@
+	char mdpLvl2[10] = {"helicopter"};
+	char mdpLvl3[10] = {"gladiators"};
+	char mdpLvl4[10] = {"explosions"};
+	char mdpLvl5[10] = {"mastodonic"};
+	char mdpLvl6[10] = {"hellbender"};
+	char mdpLvl7[10] = {"weaknesses"};
+	char mdpLvl8[10] = {"zombifying"};
+	char mdpLvl9[10] = {"supernovas"};
+	char mdpLvl10[10] = {"overkilled"};
+	char mdpLvl11[10] = {"ultradeath"};
+	char mdpLvl12[10] = {"trolololol"};

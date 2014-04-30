@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Choplifter" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Headers\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Choplifter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDLmain -lSDL -lfmodex -lSDL_ttf -lSDL_image -lsdlgfx -lSDL.dll" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Choplifter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lmingw32 -lSDLmain -lSDL -lfmodex -lSDL_ttf -lSDL_image -lsdlgfx -lSDL.dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="./include/" />
+		</Compiler>
+		<Linker>
+			<Add directory="./lib/" />
+		</Linker>
+		<Unit filename="Headers/colision.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Headers/dial.h" />
+		<Unit filename="Headers/ennemy.h" />
+		<Unit filename="Headers/enums.h" />
+		<Unit filename="Headers/ia.h" />
+		<Unit filename="Headers/level.h" />
+		<Unit filename="Headers/player.h" />
+		<Unit filename="Headers/sprite.h" />
+		<Unit filename="Headers/structs.h" />
+		<Unit filename="Headers/utils.h" />
+		<Unit filename="Sources/colision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/dial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/ia.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/level.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/text.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

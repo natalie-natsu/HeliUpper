@@ -1,0 +1,1377 @@
+# depslib dependency file v1.0
+1370949410 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\dial.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/colision.h"
+	"../Headers/dial.h"
+	<windows.h>
+
+1370533864 e:\programmes\codeblocks\workspaces\choplifter\choplifter\headers\dial.h
+	<SDL/SDL.h>
+	<windows.h>
+	<fmod.h>
+	<SDL/SDL_image.h>
+	"..\Headers\structs.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_platform.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\begin_code.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\close_code.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_keysym.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\fmod_codec.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\fmod_dsp.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\fmod_memoryinfo.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370899214 e:\programmes\codeblocks\workspaces\choplifter\choplifter\headers\structs.h
+	<SDL/SDL.h>
+	"enums.h"
+
+1370246347 e:\programmes\codeblocks\workspaces\choplifter\choplifter\headers\enums.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter\choplifter\include\\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370939671 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	<windows.h>
+
+1370901421 e:\programmes\codeblocks\workspaces\choplifter\choplifter\headers\utils.h
+	<SDL/SDL.h>
+	<windows.h>
+	<fmod.h>
+	<SDL/SDL_image.h>
+	"..\Headers\structs.h"
+
+1370949418 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\level.c
+	"..\Headers\structs.h"
+	"..\Headers\level.h"
+	"..\Headers\player.h"
+	<time.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1370246347 e:\programmes\codeblocks\workspaces\choplifter\choplifter\headers\level.h
+	<SDL/SDL.h>
+	"../Headers/structs.h"
+
+1370552517 e:\programmes\codeblocks\workspaces\choplifter\choplifter\headers\player.h
+	"structs.h"
+	"enums.h"
+
+1370901334 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/dial.h"
+	<windows.h>
+
+1370879064 e:\programmes\codeblocks\workspaces\choplifter\choplifter\headers\ia.h
+	"..\Headers\enums.h"
+
+1370246347 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\message.c
+
+1370573203 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\player.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	<windows.h>
+
+1370246347 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\text.c
+
+1370959526 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/colision.h"
+	<windows.h>
+
+1370939172 source:e:\programmes\codeblocks\workspaces\choplifter\choplifter\sources\colision.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	<windows.h>
+
+1370894997 e:\programmes\codeblocks\workspaces\choplifter\choplifter\headers\colision.h
+
+1370939172 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\colision.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	<windows.h>
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_platform.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\begin_code.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\close_code.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_keysym.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\fmod_codec.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\fmod_dsp.h
+
+1370246349 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\include\\fmod_memoryinfo.h
+
+1370246347 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\headers\enums.h
+
+1370899214 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\headers\structs.h
+	<SDL/SDL.h>
+	"enums.h"
+
+1371394362 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\headers\utils.h
+	<SDL/SDL.h>
+	<windows.h>
+	<fmod.h>
+	<SDL/SDL_image.h>
+	"..\Headers\structs.h"
+
+1370879064 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\headers\ia.h
+	"..\Headers\enums.h"
+
+1370949410 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\dial.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/colision.h"
+	"../Headers/dial.h"
+	<windows.h>
+
+1370894997 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\headers\colision.h
+
+1370533864 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\headers\dial.h
+	<SDL/SDL.h>
+	<windows.h>
+	<fmod.h>
+	<SDL/SDL_image.h>
+	"..\Headers\structs.h"
+
+1370939671 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	<windows.h>
+
+1371395946 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\level.c
+	"..\Headers\structs.h"
+	"..\Headers\level.h"
+	"..\Headers\player.h"
+	<time.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1370246347 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\headers\level.h
+	<SDL/SDL.h>
+	"../Headers/structs.h"
+
+1370552517 e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\headers\player.h
+	"structs.h"
+	"enums.h"
+
+1371393820 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/dial.h"
+	<windows.h>
+
+1370246347 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\message.c
+
+1370573203 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\player.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	<windows.h>
+
+1370246347 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\text.c
+
+1371395177 source:e:\programmes\codeblocks\workspaces\choplifter 1.0\choplifter\sources\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/colision.h"
+	<windows.h>
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\colision.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	<windows.h>
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_platform.h
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\begin_code.h
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\close_code.h
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_keysym.h
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\fmod_codec.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\fmod_dsp.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\include\\fmod_memoryinfo.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\headers\enums.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\headers\structs.h
+	<SDL/SDL.h>
+	"enums.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\headers\utils.h
+	<SDL/SDL.h>
+	<windows.h>
+	<fmod.h>
+	<SDL/SDL_image.h>
+	"..\Headers\structs.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\headers\ia.h
+	"..\Headers\enums.h"
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\dial.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/colision.h"
+	"../Headers/dial.h"
+	<windows.h>
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\headers\colision.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\headers\dial.h
+	<SDL/SDL.h>
+	<windows.h>
+	<fmod.h>
+	<SDL/SDL_image.h>
+	"..\Headers\structs.h"
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	<windows.h>
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\level.c
+	"..\Headers\structs.h"
+	"..\Headers\level.h"
+	"..\Headers\player.h"
+	<time.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\headers\level.h
+	<SDL/SDL.h>
+	"../Headers/structs.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\headers\player.h
+	"structs.h"
+	"enums.h"
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/dial.h"
+	<windows.h>
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\message.c
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\player.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	<windows.h>
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\text.c
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\choplifter\sources\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/colision.h"
+	<windows.h>
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\colision.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	<windows.h>
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_platform.h
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\begin_code.h
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\close_code.h
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408842 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_keysym.h
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408843 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\fmod_codec.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\fmod_dsp.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\include\\fmod_memoryinfo.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\headers\enums.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\headers\structs.h
+	<SDL/SDL.h>
+	"enums.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\headers\utils.h
+	<SDL/SDL.h>
+	<windows.h>
+	<fmod.h>
+	<SDL/SDL_image.h>
+	"..\Headers\structs.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\headers\ia.h
+	"..\Headers\enums.h"
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\dial.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/colision.h"
+	"../Headers/dial.h"
+	<windows.h>
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\headers\colision.h
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\headers\dial.h
+	<SDL/SDL.h>
+	<windows.h>
+	<fmod.h>
+	<SDL/SDL_image.h>
+	"..\Headers\structs.h"
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	<windows.h>
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\level.c
+	"..\Headers\structs.h"
+	"..\Headers\level.h"
+	"..\Headers\player.h"
+	<time.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\headers\level.h
+	<SDL/SDL.h>
+	"../Headers/structs.h"
+
+1371408841 c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\headers\player.h
+	"structs.h"
+	"enums.h"
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/dial.h"
+	<windows.h>
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\message.c
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\player.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	<windows.h>
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\text.c
+
+1371408849 source:c:\users\wassim\dropbox\projets\rendu final choplifter\code source choplifter\sources\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<fmod.h>
+	<time.h>
+	"../Headers/enums.h"
+	"../Headers/structs.h"
+	"../Headers/utils.h"
+	"../Headers/ia.h"
+	"../Headers/colision.h"
+	<windows.h>
+
